@@ -8,7 +8,7 @@
 
 __The Problem Statement__
 
-Construct a Client-Server Module in C and initiate a “secure” Communication between the two using standard functions of the OpenSSL Library.
+*Construct a Client-Server Module in C and initiate a “secure” Communication between the two using standard functions of the OpenSSL Library.*
 
 
 
@@ -37,9 +37,9 @@ __Generation of Self-Signed SSL Certificate__
 
 1. openssl genrsa -des3 -out server.key 2048
 2. openssl req -new -key server.key -out server.csr
-3(a). cp server.key server.key.org
-3(b). openssl rsa -in server.key.org -out server.key
-4. openssl x509 -req -days 30 -in server.csr -signkey server.key -out server.crt
-(*Here, the number "30" denotes the validity of the Certificate, which may be changed accordingly*)
+3. cp server.key server.key.org
+4. openssl rsa -in server.key.org -out server.key
+5. openssl x509 -req -days 30 -in server.csr -signkey server.key -out server.crt
+   * (*Here, the number "30" denotes the validity of the Certificate, which may be changed accordingly*)
 
 __NOTE__ : The certificate & corresponding keys will be located in /home directory, by default. Copy and Paste the same into "Debug" folder of SERVER side program. 
