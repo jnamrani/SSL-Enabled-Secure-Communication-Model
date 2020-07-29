@@ -1,12 +1,15 @@
 # SSL-Enabled-Secure-Communication-Model
 
 
+
 *This project was undertaken by me during the tenure of my Summer Training at C-DAC, Noida.*
+
 
 
 __The Problem Statement__
 
 Construct a Client-Server Module in C and initiate a “secure” Communication between the two using standard functions of the OpenSSL Library.
+
 
 
 __Development Environments__
@@ -17,14 +20,15 @@ __Development Environments__
 * Eclipse IDE for C/C++ Developers
   (*Do link "-lssl" and "-lcrypto" libraries to both programs*)
 * Packages installed :-           
-            * OpenSSL
-            (sudo apt-get install openssl && sudo apt install libssl-dev)
-            * OpenJDK (version 11.0.8) 
+  * OpenSSL
+    (sudo apt-get install openssl && sudo apt install libssl-dev)
+  * OpenJDK (version 11.0.8) 
 * Additional Software :-
-            * SocketTest 3 (for testing Sockets)
-            * WireShark (for analysis of Network Packets)
+  * SocketTest 3 (for testing Sockets)
+  * WireShark (for analysis of Network Packets)
 * Self-Signed SSL Certificate 
   *(steps for generation of the same are mentioned below)*
+
 
 
 __Generation of Self-Signed SSL Certificate__
