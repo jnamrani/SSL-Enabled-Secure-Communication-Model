@@ -52,6 +52,6 @@ __PROCEDURE for running and testing the Project__
    * (*Steps to link respective libraries: Right Click your Project > Properties > Double-Click 'C++ Build' > Settings > Select 'Libraries' under 'GCC C Linker' tab > Click the 'Add' button > Type-in the name of libraries > Apply and Close*)
 3. Run 'SERVER' from the Terminal. Enter the IP Address (eg. 127.0.0.1) and the Port Number (eg. 1111).
 4. Run 'CLIENT' from another Terminal window. Enter the SERVER's IP Address and Port Number in order to connect with it.
-5. Observe the message exchange happening between the two.
+5. Observe the communication (exchange of messages) happening between the two.
 6. To test respective SOCKETS, use SocketTest.
-7. Observe the Client-&-Server Hello alongwith key-exchange mechanism via WireShark.
+7. To analyse the Network Packets and observe the Client-&-Server Hello alongwith key-exchange mechanism, use WireShark.
