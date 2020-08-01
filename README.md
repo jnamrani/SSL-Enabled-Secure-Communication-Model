@@ -8,26 +8,26 @@
 
 __The Problem Statement__
 
-  *Construct a Client-Server Module in C and initiate a “secure” Communication between the two using standard functions of the OpenSSL Library.*
+*Construct a Client-Server Module in C and initiate a “secure” Communication between the two using standard functions of the OpenSSL Library.*
 
 
 
 __Development Environments__
 
-  *The project was developed in the following environment :-*
+*The project was developed in the following environment :-*
 
-  * OS : Ubuntu
-  * Eclipse IDE for C/C++ Developers
-    (*Do link "-lssl" and "-lcrypto" libraries to both programs*)
-  * Packages installed :-           
-    * OpenSSL
+* OS : Ubuntu
+* Eclipse IDE for C/C++ Developers
+ (*Do link "-lssl" and "-lcrypto" libraries to both programs*)
+* Packages installed :-           
+  * OpenSSL
       (sudo apt-get install openssl && sudo apt install libssl-dev)
-    * OpenJDK (version 11.0.8) 
-  * Additional Software :-
-    * SocketTest 3 (for testing Sockets)
-    * WireShark (for analysis of Network Packets)
-  * Self-Signed SSL Certificate 
-    *(steps for generation of the same are mentioned below)*
+  * OpenJDK (version 11.0.8) 
+* Additional Software :-
+  * SocketTest 3 (for testing Sockets)
+  * WireShark (for analysis of Network Packets)
+* Self-Signed SSL Certificate 
+  *(steps for generation of the same are mentioned below)*
 
 
 
