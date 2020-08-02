@@ -55,3 +55,16 @@ __PROCEDURE for running and testing the Project__
 5. Observe the communication (exchange of messages) happening between the two.
 6. To test respective SOCKETS, use SocketTest.
 7. To analyse the Network Packets and observe SSL Handshake, use WireShark.
+
+
+
+__Installing and Using WIRESHARK__
+
+1. Install "WireShark" by executing the following command in Linux Terminal:-
+  * *sudo apt install wireshark-qt*
+2. Give the required permissions.
+3. Open WireShark using Terminal or Applications menu.
+4. Click *'Loopback: lo'* to apply filters in order to capture packets on a local machine. *(IP: 127.0.0.1)*
+5. Run SERVER program. When it starts listening, run the CLIENT-side program. 
+6. Establish connection between the two.
+7. Observe the network packets being exchanged.
