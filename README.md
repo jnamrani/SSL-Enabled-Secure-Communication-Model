@@ -54,4 +54,4 @@ __PROCEDURE for running and testing the Project__
 4. Run 'CLIENT' from another Terminal window. Enter the SERVER's IP Address and Port Number in order to connect with it.
 5. Observe the communication (exchange of messages) happening between the two.
 6. To test respective SOCKETS, use SocketTest.
-7. To analyse the Network Packets and observe the Client-&-Server Hello alongwith key-exchange mechanism, use WireShark.
+7. To analyse the Network Packets and observe SSL Handshake, use WireShark.
